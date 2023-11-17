@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #3f454b;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(-65deg, black, #3f454b );
+}
+.navbar{
+    height: 75px;
+    display: flex;
+    background-color: black;
+    align-items: center;  
+}
+.logo-navbar img{
+    width: 250px;
+    padding-left: 23px; 
+    padding-top: 3px; 
+}
+.navbar>.links-navbar>.explore {
+    display: flex;
+    justify-content: left;
+    color: #f9db4a;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.navbar> .links-navbar{
+    display: grid;
+    grid-template-columns: 1fr ;
+    width: 500px;
+}
+.navbar> .links-navbar> .links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-left: 50px;
+}
+
+.navbar> .links-navbar>.links a{
+   font-family: 'Ubuntu Condensed', sans-serif;
+   text-decoration: none;
+   color: white;
+   font-weight: bold; 
+}
+.navbar> .links-navbar>.links> .spark-link label{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color:  #6c7270;
+    padding-left: 20px;
+    font-weight: bold;
+   
+}
+.navbar> .links-navbar>.links> .spark-link select{
+    color:  #6c7270;
+    background-color: black;
+    border-color: black;
+
+}
+.navbar> .links-navbar> .spark-link select::focus{
+    touch-action: none;
+    border: black;
+
+}

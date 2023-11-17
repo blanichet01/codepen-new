@@ -1,0 +1,33 @@
+.content-section{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding-top: 40px;
+}
+.content-section> .column-left{
+    font-family: 'Roboto', sans-serif;
+    color: #d2cfc7;
+    padding-left: 75px;
+    padding-top: 20px;   
+}
+.content-section> .column-left> .text-1{
+    font-size: 30px;
+}
+.content-section> .column-left> .text-2{
+    font-size: 25px;
+}
+.content-section> .column-left> .text-1 img{
+    width: 26px;
+}
+.content-section> .column-right> .this-is{
+    padding-left: 150px;
+    font-weight: bold;
+    color: white;
+}
+.content-section> .column-right> .img-codepen{
+    display: flex;
+    justify-content: flex-end;
+}
+.content-section> .column-right> .img-codepen img{
+    width: 80%;
+ }
+

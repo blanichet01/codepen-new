@@ -1,0 +1,114 @@
+.bottoms-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 460px;
+    padding-left: 100px;
+    padding-right: 0px;
+    padding-top: 10px;
+}
+ .bottoms-navbar> .create-btn{
+    display: flex;
+    justify-content: center;
+    border-color: #3f454b;
+    background-color: #3f454b;
+    border-radius: 2px;
+    height: 45px;
+    width: 105px;
+    align-items: center;
+} 
+.bottoms-navbar> .create-btn label{
+    font-weight: 500;
+    align-content: center;
+    color: white;
+}
+.bottoms-navbar> .create-btn i{
+    color: #50c884;
+    padding-left: 12px;
+    font-size: 1.2em;
+    padding-top: 2px;
+}
+
+.bottoms-navbar> .search-btn a {
+    display: flex;
+    color:  #d4d3d0;
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: none;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.bottoms-navbar>.login-btn{
+    display: flex;
+    justify-content: center;
+    border-color: #3f454b;
+    background-color: #3f454b;
+    border-radius: 2px;
+    height: 45px;
+    width: 95px;
+    align-items: center;
+}
+.bottoms-navbar>.login-btn a{
+    font-weight: 500;
+    text-decoration: none;
+    align-content: center;
+    color: white;
+}
+.bottoms-navbar>.sign-btn{
+    display: flex;
+    justify-content: center;
+    border-color: #3f454b;
+    background-color: #3f454b;
+    border-radius: 2px;
+    height: 45px;
+    width: 95px;
+    align-items: center;
+}
+.bottoms-navbar>.sign-btn a{
+    font-weight: 500;
+    text-decoration: none;
+    align-content: center;
+    color: white;
+}
+.content-section> .column-left> .btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    width: 70%;
+}
+.content-section> .column-left> .btns> .Up-for-free{
+    display: flex;
+    justify-content: center;
+    border-color: #50c884;
+    background-color: #50c884;
+    border-radius: 2px;
+    height: 60px;
+    width: 200px;
+    align-items: center;
+   
+    
+}
+.content-section> .column-left> .btns> .Up-for-free a{
+    text-decoration: none;
+    color: black;    
+}
+.content-section> .column-left> .btns> .learn-more{
+    display: flex;
+    justify-content: center;
+    border-color: black;
+    background-color: black;
+    border-radius: 2px;
+    height: 60px;
+    width: 200px;
+    align-items: center;
+    
+}
+.content-section> .column-left> .btns> .learn-more a{
+    text-decoration: none;
+    color: white; 
+    text-transform: capitalize;   
+}
