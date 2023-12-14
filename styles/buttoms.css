@@ -1,3 +1,4 @@
+/* estilos para botones del navbar  */
 .bottoms-navbar{
     display: flex;
     justify-content: space-between;
@@ -71,6 +72,7 @@
     align-content: center;
     color: white;
 }
+/* estilos para botones del contenedor */
 .content-section> .column-left> .btns{
     display: flex;
     justify-content: space-between;

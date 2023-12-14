@@ -1,8 +1,10 @@
+/* ayudantes para la pagina  */
+/* espacio de 7px de altura */
 .spacer7{
     height: 7px;
     width: 100%;
   }
-
+/* espacio de 80px de altura */
   .spacer80{
     height: 80px;
     width: 100%;
